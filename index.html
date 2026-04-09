@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Air Kemasan Premium</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Air Putih Kemasan</h1>
+    <button onclick="toggleDarkMode()">🌙</button>
+</header>
+
+<nav>
+    <button onclick="showPage('home')">Home</button>
+    <button onclick="showPage('profil')">Profil</button>
+    <button onclick="showPage('sejarah')">Sejarah</button>
+    <button onclick="showPage('tokoh')">Tokoh</button>
+    <button onclick="showPage('teknologi')">Teknologi</button>
+</nav>
+
+<main>
+
+<section id="home" class="page active">
+    <div class="hero">
+        <h2>Eksplorasi Air Kemasan</h2>
+        <p>Dari sejarah hingga teknologi modern</p>
+    </div>
+</section>
+
+<section id="profil" class="page">
+    <div class="card">
+        <img src="images/air.jpg">
+        <h3>Alvino</h3>
+        <p>Kelas: XI-12</p>
+        <p>SMAN 5 Cimahi</p>
+    </div>
+</section>
+
+<section id="sejarah" class="page">
+    <div class="card">
+        <img src="images/sejarah.jpg">
+        <p>
+        Air kemasan dimulai dari Eropa abad ke-18 sebagai air mineral kesehatan,
+        berkembang dengan botol kaca hingga plastik modern.
+        </p>
+    </div>
+</section>
+
+<section id="tokoh" class="page">
+    <div class="grid">
+        <div class="card">
+            <img src="images/tokoh1.jpg">
+            <h3>Joseph Priestley</h3>
+            <p>Karbonasi air</p>
+        </div>
+
+        <div class="card">
+            <img src="images/tokoh2.jpg">
+            <h3>Michael Owens</h3>
+            <p>Mesin botol otomatis</p>
+        </div>
+    </div>
+</section>
+
+<section id="teknologi" class="page">
+    <div class="card">
+        <img src="images/teknologi.jpg">
+        <ul>
+            <li>Reverse Osmosis</li>
+            <li>UV Sterilisasi</li>
+            <li>Ozonisasi</li>
+        </ul>
+    </div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
