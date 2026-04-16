@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Air Kemasan Premium</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Air Putih Kemasan</h1>
+    <button onclick="toggleDarkMode()">🌙</button>
+</header>
+
+<nav>
+    <button onclick="showPage('home')">Home</button>
+    <button onclick="showPage('profil')">Profil</button>
+    <button onclick="showPage('sejarah')">Sejarah</button>
+    <button onclick="showPage('tokoh')">Tokoh</button>
+    <button onclick="showPage('teknologi')">Teknologi</button>
+</nav>
+
+<main>
+
+<section id="home" class="page active">
+    <div class="hero">
+        <h2>Eksplorasi Air Kemasan</h2>
+        <p>Dari sejarah hingga teknologi modern</p>
+    </div>
+</section>
+
+<section id="profil" class="page">
+    <div class="card">
+        <img src="images/air.jpg">
+        <h3>Alvino</h3>
+        <p>Kelas: XI-12</p>
+        <p>SMAN 5 Cimahi</p>
+    </div>
+</section>
+
+<section id="sejarah" class="page">
+    <div class="card">
+        <img src="images/sejarah.jpg">
+        <p>
+       Air putih kemasan muncul sebagai respons terhadap kebutuhan akan air minum yang aman, higienis, dan praktis, terutama di wilayah urban yang kualitas airnya mulai terdegradasi pada abad ke-19. Di Eropa dan Amerika Serikat, praktik awalnya berfokus pada pengemasan air mineral alami dari mata air yang dianggap memiliki manfaat kesehatan. Air ini dikemas dalam botol kaca dan dipasarkan sebagai produk premium, sering dikaitkan dengan terapi kesehatan dan gaya hidup kalangan atas. Pada tahap ini, distribusi masih terbatas dan biaya produksi relatif tinggi.
+
+Perkembangan signifikan terjadi pada abad ke-20 seiring kemajuan teknologi pengolahan air dan material kemasan. Munculnya plastik, khususnya PET (polyethylene terephthalate), pada pertengahan hingga akhir abad tersebut secara drastis menurunkan biaya produksi dan distribusi. Selain air mineral alami, produsen mulai memasarkan air yang dimurnikan melalui proses filtrasi, distilasi, atau reverse osmosis. Standarisasi kualitas air oleh lembaga kesehatan juga meningkatkan kepercayaan konsumen, sehingga air kemasan beralih dari produk niche menjadi komoditas massal.
+
+Pada akhir abad ke-20 hingga awal abad ke-21, industri air kemasan berkembang menjadi pasar global bernilai tinggi. Faktor pendorongnya meliputi urbanisasi, meningkatnya kekhawatiran terhadap kualitas air keran, serta gaya hidup yang menuntut kepraktisan. Namun, ekspansi ini juga memunculkan kritik terkait dampak lingkungan, terutama limbah plastik dan eksploitasi sumber air. Akibatnya, inovasi mulai bergeser ke arah kemasan ramah lingkungan, sistem isi ulang, dan regulasi yang lebih ketat untuk menjaga keberlanjutan industri.
+        </p>
+    </div>
+</section>
+
+<section id="tokoh" class="page">
+    <div class="grid">
+        <div class="card">
+            <img src="images/tokoh1.jpg">
+            <h3>Joseph Priestley</h3>
+            <p>Ilmuwan abad ke-18 yang pertama kali menemukan cara menginfuskan karbon dioksida ke dalam air, menciptakan dasar dari air berkarbonasi. Eksperimennya pada tahun 1767 menjadi fondasi teknologi minuman kemasan modern, terutama untuk air soda dan minuman ringan.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/tokoh2.jpg">
+            <h3>Michael Owens</h3>
+            <p>Penemu mesin pembuat botol kaca otomatis pada awal abad ke-20. Inovasinya memungkinkan produksi massal botol dengan biaya rendah dan konsistensi tinggi, yang menjadi kunci dalam distribusi air minum kemasan secara luas dan efisien.</p>
+        </div>
+    </div>
+</section>
+
+<section id="teknologi" class="page">
+    <div class="card">
+        <img src="images/teknologi.jpg">
+        <ul>
+            <li>Reverse Osmosis</li>
+            <li>UV Sterilisasi</li>
+            <li>Ozonisasi</li>
+        </ul>
+    </div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
